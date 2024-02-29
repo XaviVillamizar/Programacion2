@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author HP
  */
-public class Ejercicio15 {
+public class Ejercicios12 {
 
     /**
      * @param args the command line arguments
@@ -19,16 +19,18 @@ public class Ejercicio15 {
         // TODO code application logic here
         Scanner kb = new Scanner(System.in);
         
-        System.out.println("Digite un valor A");
-        int A=kb.nextInt();
-        System.out.println("Digite un valor B");
-        int B=kb.nextInt();
+        System.out.println("Digite el valor de x1");
+        int x1=kb.nextInt();
+         System.out.println("Digite el valor de y1");
+        int y1=kb.nextInt();
+         System.out.println("Digite el valor de x2");
+        int x2=kb.nextInt();
+         System.out.println("Digite el valor de y2");
+        int y2=kb.nextInt();
         
-        int C=A;
-        A=B;
-        B=C;
+        double dist = Math.sqrt (Math.pow ((x2-x1),2) + Math.pow ((y2-y1),2));
         
-        System.out.println("EL actual valor de A es: "+A+" y el actual valor de B es: "+B);
+        System.out.println("La distancia es: "+dist);
     }
     
 }

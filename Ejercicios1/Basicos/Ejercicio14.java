@@ -10,25 +10,23 @@ import java.util.Scanner;
  *
  * @author HP
  */
-public class Ejercicio15 {
+public class Ejercicio14 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // TODO code application logic 
         Scanner kb = new Scanner(System.in);
         
-        System.out.println("Digite un valor A");
-        int A=kb.nextInt();
-        System.out.println("Digite un valor B");
-        int B=kb.nextInt();
+        System.out.println("Digite un numero de 2 cifras");
+        int num=kb.nextInt();
         
-        int C=A;
-        A=B;
-        B=C;
+        int dig1=num/10;
+        int dig2=num%10;
+        int inv = dig2*10+dig1;
         
-        System.out.println("EL actual valor de A es: "+A+" y el actual valor de B es: "+B);
+        System.out.println("El numero invertido es: "+inv);
     }
     
 }
