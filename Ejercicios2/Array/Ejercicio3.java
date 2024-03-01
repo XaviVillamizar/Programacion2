@@ -10,7 +10,7 @@ import java.util.Scanner;
 //parciales de filas y columnas igual que si de una hoja de cálculo se tratara. La
 //suma total debe aparecer en la esquina inferior derecha.
 
-public class Array_N3 {
+public class Ejercicio3 {
     public static void main (String[]args){
 Scanner teclado = new Scanner (System.in);
         int matriz [][] = new int [4][5];
